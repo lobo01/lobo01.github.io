@@ -4,74 +4,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 3 - Iguana</title>
-    <link rel="stylesheet" href="./Secciones/style.css">
+    <title>Desafio 4</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" src="https://kit.fontawesome.com/e1a80ed7a8.js">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
-
-    <div class="whole">
-        <div class="one">
-            <div class="one-title">IGUANAS</div>
-        </div>
-        <div class="two">
-            <div class="two-image"><img src="./img/imagen 5.jpg" alt="iguana slide de fotos"></div>
-        </div>
-        <div class="three">
-                <!--<img src="./img/imagen 4.jpg" class="imagen-texto" alt="imagen iguana de texto">
-                <p class="texto-imagen-left">La iguana es un reptil perteneciente a la familia Iguanadiae. Su tamaño está entre los 15 cm hasta los 2 metros de largo y puede llegar a pesar unos 15 kg. Cuando están jóvenes tienen una coloración con tonos verdes y al ir madurando predomina un color grisáceo con crestas o espinas en su espalda. 
-                    <br><br>
-                    La alimentación de la iguana va variando según su etapa de vida, pero la mayor parte de sus años son herbívoras. Viven en lugares tropicales con mucha vegetación y es un animal que puede ser domesticado.</p>-->
-            <div class="three-left">
-                    <p class="texto-imagen-left">La iguana es un reptil perteneciente a la familia Iguanadiae. Su tamaño está entre los 15 cm hasta los 2 metros de largo y puede llegar a pesar unos 15 kg. Cuando están jóvenes tienen una coloración con tonos verdes y al ir madurando predomina un color grisáceo con crestas o espinas en su espalda. 
-                        <br><br>
-                        La alimentación de la iguana va variando según su etapa de vida, pero la mayor parte de sus años son herbívoras. Viven en lugares tropicales con mucha vegetación y es un animal que puede ser domesticado.</p>
-            </div>
-            <div class="three-right">
-                <div class="three-right-image">
-                    <img src="./img/imagen 4.jpg" class="imagen-texto" alt="imagen iguana de texto">
-                </div>
-            </div>
-        </div>
-        <div class="four">
-            <div class="top">
-                <div class ="top-title">
-                    <div class="titulo-caracteristicas">CARACTERÍSTICAS</div>
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="bottom-one">
-                    <span><i class="fa-solid fa-eye"></i></span>
-                    <p class="parrafo-boton-one">Tercer ojo</p>
-                </div>
-                <div class="bottom-two">
-                    <p class="parrafo-boton-two">Pacificas</p>
-                </div>
-                <div class="bottom-three">
-                    <p class="parrafo-boton-three">Cambian de color</p>
-                </div>
-            </div> 
-        </div>
-        <div class="five">
-            <div clas="imagen-uno">
-                <img width="316px" height="202px" src="./img/imagen 2.jpg" class="imagen-primera" alt="">
-            </div>
-            <div clas="imagen-dos">
-                <img width="316px" height="202px" src="./img/imagen 1.jpg" class="imagen-segunda" alt="">
-            </div>
-            <div clas="imagen-tres">
-                <img width="316px" height="202px" src="./img/imagen 3.jpg" class="imagen-tercera" alt="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="container-fluid">
+            <img class="logo-blanco" src="./assets/img/logo-white.png" alt="logo cupon blanco" width="100px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Disabled</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="six">
-            <div class="footer">Visita https://www.anipedia.net/iguanas/iguana-verde/ para conocer más.</div>
+    </nav>
+    <div class="row row-cols-1 row-cols-md-3 g-4 my-3">
+        <div class="col">
+            <div class="card h-100 mx-3">
+                <img src="./assets/img/cupon-1.jpg" class="card-img-top" alt="foto de una cama mostrando su cubre cama">
+                <div class="card-body">
+                    <h5 class="card-title">plumon coral</h5>
+                    <p class="card-text">descripcion de plumon coral.</p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="direccion-uno">alameda 772, santiago centro </span>
+                    <br>
+                    <hr>
+                    <span class="precio-uno text-secondary">$45.990</span>
+                    <span class="precio-uno-real text-success">$ 22.990</span>
+                </div>
+                <!--<div class="card-footer">
+                    <small class="text-muted ">Last updated 3 mins ago</small>
+                </div>-->
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 mx-3">
+                <img src="./assets/img/cupon-2.jpg" class="card-img-top" alt="plato de comida en un local refinado">
+                <div class="card-body">
+                    <h5 class="card-title">Plato de comida</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="direccion-uno">alameda 772, santiago centro </span>
+                    <br>
+                    <hr>
+                    <span class="precio-uno text-secondary">$15.990</span>
+                    <span class="precio-uno-real text-success">$ 25.990</span>
+                </div>
+               <!--<div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>-->
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 mx-3">
+                <img src="./assets/img/cupon-3.jpg" class="card-img-top" alt="foto de un sillon dental">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                        <i class="fa-solid fa-location-dot"></i>
+                    <span class="direccion-uno">alameda 772, santiago centro </span>
+                    <br>
+                    <hr>
+                    <span class="precio-uno text-secondary">$15.990</span>
+                    <span class="precio-uno-real text-success">$ 25.990</span>
+                </div>
+                <!--<div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 my-3">
+        <div class="col">
+            <div class="card h-100 mx-3">
+                <img src="./assets/img/cupon-4.jpg" class="card-img-top" alt="foto de comida">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                        <i class="fa-solid fa-location-dot"></i>
+                    <span class="direccion-uno">alameda 772, santiago centro </span>
+                    <br>
+                    <hr>
+                    <span class="precio-uno text-secondary">$15.990</span>
+                    <span class="precio-uno-real text-success">$ 25.990</span>
+                </div>
+                <!--<div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>-->
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 mx-3">
+                <img src="./assets/img/cupon-5.jpg" class="card-img-top"
+                    alt="foto de una noche de festejo en un lugar muy bonito con un lago en un ambiente nocturno">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="direccion-uno">alameda 772, santiago centro </span>
+                    <br>
+                    <hr>
+                    <span class="precio-uno text-secondary">$15.990</span>
+                    <span class="precio-uno-real text-success">$ 25.990</span>
+                </div>
+                <!--<div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>-->
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 mx-3">
+                <img src="./assets/img/cupon-6.jpg" class="card-img-top" alt="foto de una laguna con un ave dentro">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                        <i class="fa-solid fa-location-dot"></i>
+                    <span class="direccion-uno">alameda 772, santiago centro </span>
+                    <br>
+                    <hr>
+                    <span class="precio-uno text-secondary">$15.990</span>
+                    <span class="precio-uno-real text-success">$ 25.990</span>
+                </div>
+                <!--<div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>-->
+            </div>
         </div>
     </div>
 
+    <!--formulario-->
+
+    <nav class="formulario navbar navbar-light bg-success">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 text-light mx-auto">Recibe cupones en tu correo</span>
+        </div>
+        <div class="input-group flex-nowrap mb-3 mt-3 px-5">
+            <!--<span class="input-group-text" id="addon-wrapping">@</span>-->
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+          <div class="input-group flex-nowrap px-5">
+            <!--<span class="input-group-text" id="addon-wrapping">@</span>-->
+            <input type="text" class="form-control mb-3" placeholder="Correo electronico" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+          <button class="btn btn-outline-secondary bg-light mb-3 mx-auto" type="Enviar" id="button-addon1">Enviar</button>
+    </nav>
+
+    <!--FOOTER-->
+
+    <div class="footer">
+        <div class="logo-ft">
+            <img src="./assets/img/logo-black.png" alt="logo cuppon negro" width="100px">
+        </div> 
+        <div class="texto-ft">
+        <p>© 2018 Cuppon Latam .Todos los derechos reservados.</p>
+        </div>
+    </div>
+    <!--<img class="ig-negro" src="./assets/img/logo-black.png" alt="logo cuppon negro" width="100px">-->
+
+    <!--<h1>desafio 4</h1>
+    <i class="user fa-solid fa-user"></i>-->
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/e1a80ed7a8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

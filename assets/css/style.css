@@ -1,0 +1,52 @@
+
+/** {
+    border: 3px solid green;
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.user {
+    font-size: 50px;
+}*/
+
+.logo-blanco {
+    width: 100px;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;    
+}
+
+/*.footer {
+    background-color: #28a745;
+}*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-ft {
+    flex-direction: row;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.texto-ft {
+    flex-direction: row;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;  
+}
+
+.precio-uno-real {
+    font-size: 35px;
+    text-align: center;
+}
+
