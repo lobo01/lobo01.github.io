@@ -12,9 +12,9 @@ h1 {
     font-size: 50px;
 }*/
 
-.logo-blanco {
+/*.logo-blanco {
     width: 100px;
-}
+}*/
 
 .nav-link {
     font-family: 'Roboto', sans-serif;    
@@ -49,4 +49,6 @@ h1 {
     font-size: 35px;
     text-align: center;
 }
-
+.titulo-inicial {
+    color: whitesmoke;
+}
