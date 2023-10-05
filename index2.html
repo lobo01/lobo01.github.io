@@ -1,24 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Examen final 1</title>
-
+    <title class="titulo-inicial">Examen final Modulo 1</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css"
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-<body>
 
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid bg-black">
-          <span class="navbar-text">
-            Curriculum vitae
-          </span>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <h1 class="cv">Proyectos </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
+<br>
+</div>
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4 my-3">
+        <div class="col">
+            <div class="card h-100 mx-3">
+                <img src="./assets/img/clinica-medica.jpg" class="card-img-top" alt="sitio web medico">
+                <div class="card-body">
+                    <h5 class="card-title">Clinica Medica</h5>
+                    <p class="card-text">Sitio web realizado para una clinica maipu dentobal, quien a realizado un cambio no solo estetico, sino estrategico de su marca en el ambito de las tecnologias.</p>
+                    <button type="button" class="btn btn-dark">Visitar desarrollo</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 mx-3">
+                <img src="./assets/img/proyecto pagina segura.jpg" class="imagen que proyecta ciberseguridad"
+                    alt="foto de una noche de festejo en un lugar muy bonito con un lago en un ambiente nocturno">
+                <div class="card-body">
+                    <h5 class="card-title">ciberseguridad</h5>
+                    <p class="card-text">Proyecto que fue desarrollado para un e-commerce con la finalidad de poder transmitirle mejor imagen a sus clientes en cuanto a la seguridad de sus medios de pago
+                    </p>
+                    <button type="button" class="btn btn-dark">Visitar desarrollo</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 mx-3">
+                <img src="./assets/img/sitio web de automoviles.png" class="card-img-top" alt="sitio web de venta de automoviles">
+                <div class="card-body">
+                    <h5 class="card-title">AutomovilLeo</h5>
+                    <p class="card-text">Proyecto de e-commerce para venta de automoviles online, llevado a cabo codo a codo con el dueño de la empresa, presentando grandes innovaciones en sus funcionalidades con respecto a su competencia</p>
+                    <button type="button" class="btn btn-dark">Visitar desarrollo</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--formulario-->
+
+    <nav class="formulario navbar navbar-light bg-black">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 text-light mx-auto">Contactame</span>
+        </div>
+        <div class="input-group flex-nowrap mb-3 mt-3 px-5">
+
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+          <div class="input-group flex-nowrap px-5">
+
+            <input type="text" class="form-control mb-3" placeholder="Correo electronico" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+          <button class="btn btn-outline-secondary bg-light mb-3 mx-auto" type="Enviar" id="button-addon1">Enviar</button>
+    </nav>
+
+    <!--FOOTER-->
+
+    <div class="footer">
+        <div class="texto-ft">
+        <p>© 2023 Maurizzio Leonardi.Todos los derechos reservados.</p>
+        </div>
+    </div>
+
+
 
 
 
@@ -28,4 +104,5 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
